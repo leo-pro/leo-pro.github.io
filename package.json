@@ -1,0 +1,26 @@
+{
+  "name": "leo-pro.github.io",
+  "version": "1.0.0",
+  "description": "Você acessar meu site [clicando aqui](https://leo-pro.github.io/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-pro/leo-pro.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leo-pro/leo-pro.github.io/issues"
+  },
+  "homepage": "https://github.com/leo-pro/leo-pro.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
