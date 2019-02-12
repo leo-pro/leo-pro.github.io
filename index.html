@@ -25,16 +25,43 @@
     <title>Leonardo Alves - Desenvolvedor Web</title>
     <link rel="stylesheet" href="assets/css/plugins.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/barras.css">
 </head>
 <body>
-    <div class="container-fluid" id="banner-home">
-        <img class="img-perfil" src="https://avatars0.githubusercontent.com/u/14790547?s=460&v=4" alt="Foto de Perfil DevLeo">
-        <h1><code>< DevLeo /></code></Hello></h1>
-        <a class="ui inverted blue button" target="_blank" href="https://github.com/leo-pro">Clique Aqui</a>
-    </div>
+    <header id="banner-home">
+        <div class="opacity-banner">
+            <center>
+                <img class="img-perfil" src="https://avatars0.githubusercontent.com/u/14790547?s=460&v=4" alt="Foto de Perfil DevLeo">
+                <p class="titulo-home"><code>< DevLeo /></code></Hello></p>
+                <a class="ui red button" target="_blank" href="https://github.com/leo-pro">About me</a>
+            </center>
+        </div>
+    </header>
+
+    <main>
+        <section class="container my-5">
+            <button class="ui inverted yellow button">Run</button>
+            <h1>Habilidades</h1>
+            <h3>Html 5</h3>
+            <div class="barra">
+                <div class="conteudo"></div>
+            </div>
+            <h3>CSS</h3>
+            <div class="barra">
+                <div class="conteudo"></div>
+            </div>
+            <h3>JS</h3>
+            <div class="barra">
+                <div class="conteudo"></div>
+            </div>
+        </section>
+    </main>
 
     <script src="assets/js/lib.js"></script>
     <script>
+        $('button.button').click(function(){
+            $('div.conteudo').transition('fade right');
+        });
     </script>
 </body>
 </html>
