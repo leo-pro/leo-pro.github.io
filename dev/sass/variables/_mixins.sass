@@ -1,0 +1,57 @@
+// ===== COLORS =========
+$black: #000;
+$white: #FFF;
+$red: #DB2828;
+$yellow: #FFE21F;
+$blue: #2185D0;
+$light-blue: #61dafb;
+$dark-green: #43853d;
+$grey: #696969;
+$dark-grey: #292929;
+$light-grey: #ebebeb;
+
+
+// ====== FLEXBOX =============
+=flexbox
+    display: -webkit-box
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flexbox
+    display: flex
+
+// ======== Breakpoint ===================
+$mobile: 599px;
+$tablet: 991px;
+
+=breakpoint($point)
+    @if $point == $tablet
+        @media (max-width: $tablet)
+            @content
+  
+    @else if $point == $celular
+        @media (max-width: $celular) 
+            @content
+
+// ======= GRADIENT AND TRANSITION ==========
+=gradient($angle,$gradient1, $gradient2)
+    background-color: $gradient2 
+    background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2))
+    background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2)
+    background-image:    -moz-linear-gradient($angle, $gradient1, $gradient2)
+    background-image:     -ms-linear-gradient($angle, $gradient1, $gradient2)
+    background-image:      -o-linear-gradient($angle, $gradient1, $gradient2)
+    background-image:         linear-gradient($angle, $gradient1, $gradient2)
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}')
+
+=transition($transition...) 
+    -moz-transition:    all $transition linear
+    -o-transition:      all $transition linear
+    -webkit-transition: all $transition linear
+    transition:         all $transition linear
+
+=border-radius($radius) 
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+    -ms-border-radius: $radius
+    border-radius: $radius
+

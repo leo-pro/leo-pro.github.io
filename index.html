@@ -23,45 +23,81 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#000">
     <title>Leonardo Alves - Desenvolvedor Web</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/plugins.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/barras.css">
+    <link rel="stylesheet" href="assets/css/components/bars.css">
 </head>
 <body>
     <header id="banner-home">
         <div class="opacity-banner">
-            <center>
-                <img class="img-perfil" src="https://avatars0.githubusercontent.com/u/14790547?s=460&v=4" alt="Foto de Perfil DevLeo">
-                <p class="titulo-home"><code>< DevLeo /></code></Hello></p>
-                <a class="ui red button" target="_blank" href="https://github.com/leo-pro">About me</a>
-            </center>
+            <div class="d-flex flex-column align-items-center pt-5">
+                <div>
+                    <img class="img-perfil" src="assets/images/foto-perfil.jpeg" alt="Foto de Perfil DevLeo">
+                </div>
+                <div>
+                    <p class="titulo-home"><code>< DevLeo /></code></Hello></p>
+                </div>
+                <div>
+                    <a class="ui yellow button" href="#habilidades">Sobre</a>
+                    <a class="ui blue button" href="#contato">Contato</a>
+                </div>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="container my-5">
-            <button class="ui inverted yellow button">Run</button>
-            <h1>Habilidades</h1>
-            <h3>Html 5</h3>
+        <section class="container my-5" id="habilidades">
+            <h3><i class="fab fa-html5"></i> HTML - 100%</h3>
             <div class="barra">
                 <div class="conteudo"></div>
             </div>
-            <h3>CSS</h3>
+
+            <h3><i class="fab fa-css3"></i> <i class="fab fa-sass "></i> CSS/SASS - 80%</h3>
             <div class="barra">
-                <div class="conteudo"></div>
+                <div class="conteudo wd-80"></div>
             </div>
-            <h3>JS</h3>
+
+            <h3><i class="fab fa-js-square"></i> JavaScript - 80%</h3>
             <div class="barra">
-                <div class="conteudo"></div>
+                <div class="conteudo wd-80"></div>
+            </div>
+
+            <h3><i class="fab fa-react"></i> <i class="fab fa-node-js"></i> React, NodeJS - 40%</h3>
+            <div class="barra">
+                <div class="conteudo wd-40"></div>
+            </div>
+
+            <h3><i class="fab fa-php"></i> PHP - 90%</h3>
+            <div class="barra">
+                <div class="conteudo wd-90"></div>
+            </div>
+
+            <h3><i class="fab fa-wordpress"></i> WordPress - 40%</h3>
+            <div class="barra">
+                <div class="conteudo wd-40"></div>
+            </div>
+
+            <h3><i class="fas fa-database"></i> MySQL, PostgreSQL - 70%</h3>
+            <div class="barra">
+                <div class="conteudo wd-70"></div>
+            </div>
+
+            <h3><i class="fab fa-github"></i> Github - 60%</h3>
+            <div class="barra">
+                <div class="conteudo wd-60"></div>
             </div>
         </section>
+
+        <section id="contato"></section>
     </main>
+
+    <footer class="bg-grey">
+        <center>&copy; 2019 - Leonardo Alves</center>
+    </footer>
 
     <script src="assets/js/lib.js"></script>
     <script>
-        $('button.button').click(function(){
-            $('div.conteudo').transition('fade right');
-        });
     </script>
 </body>
 </html>

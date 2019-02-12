@@ -1,17 +1,73 @@
-$black: #000;
-$white: #FFF;
+@import 'variables/_mixins'
 
 html,body
     background-color: $black
     color: $white
 
+.bg-red
+    background-color: $red
+    color: $white
+.bg-yellow
+    background-color: $yellow
+    color: $white
+.bg-blue
+    background-color: $blue
+    color: $white
+.bg-grey
+    background-color: $dark-grey
+    color: $white
+
 #banner-home
     width: 100%
-    height: 500px
+    height: 100%
     background-image: url('../images/background-home.jpg')
     background-repeat: no-repeat
     background-size: cover
     background-position: center 
+
+.opacity-banner
+    background: #000
+    opacity: 0.7
+    width: 100%
+    height: 100%
+
 .img-perfil
     width: 250px
-    height: 250px 
+    height: 250px  
+
+//  CSS HABILIDADES
+#habilidades
+    background-color: rgba(255,255,255,0.1)
+    padding: 40px
+    +border-radius(15px)
+    color: $white
+    width: 100%
+    height: 100%
+
+.fa-html5
+    color: orange
+.fa-css3
+    color: $blue
+.fa-sass
+    color: rgb(204, 102, 153)
+.fa-js-square
+    color: $yellow
+.fa-php
+    color: purple
+.fa-wordpress
+    color: $blue
+.fa-react
+    color: $light-blue
+.fa-node-js
+    color: $dark-green
+.fa-database
+    color: $yellow
+.fab,
+.fas
+    font-size: 2.2em
+    padding-right: 10px
+
+// CSS FOOTER
+footer
+    padding: 20px
+    font-size: 1.1em
