@@ -27,35 +27,53 @@
     <link rel="stylesheet" href="assets/css/plugins.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/components/bars.css">
+
 </head>
 <body>
     <header id="banner-home">
         
         <div class="content-banner">
             <div class="d-flex flex-column align-items-center pt-5">
-                <div>
+                <div class="pt-3">
                     <img class="img-perfil" src="assets/images/foto-perfil.jpeg" alt="Foto de Perfil DevLeo">
                 </div>
-                <div>
+                <div class="pt-3">
                     <p class="titulo-home"><code>< DevLeo /></code></Hello></p>
                 </div>
-                <div>
-                    <a class="ui yellow button" href="#habilidades">Sobre</a>
-                    <a class="ui blue button" href="#contato">Contato</a>
+                <div class="btn-home">
+                    <button class="ui inverted button yellow" onclick="$('#habilidades').animatescroll()">Sobre mim</button>
+                    <a class="ui inverted blue button" href="#contato">Portfólio</a>
+                </div>
+                <div class="icones-contato">
+                    <a href="https://github.com/leo-pro" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://facebook.com.br" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com.br/leollleo" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:leoroberto.alves@hotmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="opacity-banner"></div>
     </header>
 
-    <main>
-        <section class="container my-5" id="habilidades">
+    <main id="habilidades">
+        <h1></h1>
+        <section class="container my-5" id="content-habilidades">
+            <div class="container">
+            </div>
             <h3><i class="fab fa-html5"></i> HTML - 100%</h3>
             <div class="barra">
                 <div class="conteudo"></div>
             </div>
 
-            <h3><i class="fab fa-css3"></i> <i class="fab fa-sass "></i> CSS/SASS - 80%</h3>
+            <h3><i class="fab fa-css3-alt"></i> <i class="fab fa-sass "></i> CSS/SASS - 80%</h3>
             <div class="barra">
                 <div class="conteudo wd-80"></div>
             </div>
@@ -99,6 +117,7 @@
     </footer>
 
     <script src="assets/js/lib.js"></script>
+    <script src="assets/js/animatescroll.min.js"></script>
     <script>
     </script>
 </body>

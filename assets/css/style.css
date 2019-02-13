@@ -49,7 +49,23 @@ html, body {
   -ms-border-radius: 15px;
   border-radius: 15px; }
 
-#habilidades {
+.btn-home {
+  padding-top: 30px; }
+
+.icones-contato {
+  font-size: 1.3em;
+  padding-top: 50px; }
+  .icones-contato a {
+    text-decoration: none;
+    color: #FFF; }
+    .icones-contato a .fa-facebook:hover {
+      color: #2185D0; }
+    .icones-contato a .fa-instagram:hover {
+      color: purple; }
+    .icones-contato a .fa-envelope:hover {
+      color: #FFE21F; }
+
+#content-habilidades {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 40px;
   -webkit-border-radius: 15px;
@@ -63,7 +79,7 @@ html, body {
 .fa-html5 {
   color: orange; }
 
-.fa-css3 {
+.fa-css3-alt {
   color: #2185D0; }
 
 .fa-sass {
