@@ -1,0 +1,24 @@
+{
+  "name": "DevLeo",
+  "homepage": "https://github.com/leo-pro/leo-pro.github.io",
+  "authors": [
+    "Leonardo Alves <leoroberto.alves@hotmail.com>"
+  ],
+  "description": "My Website",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "animate.sass": "*",
+    "jquery": "^3.3.1",
+    "semantic-ui-sass": "*"
+  }
+}

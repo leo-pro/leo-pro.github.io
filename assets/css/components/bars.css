@@ -5,11 +5,15 @@
   width: 100%; }
 
 .conteudo {
+  width: 0%;
   height: 100%;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   border-radius: 15px;
+  padding: 12px; }
+
+.animate {
   background-color: #FFE21F;
   background-image: -webkit-gradient(linear, 90deg, from(#2185D0), to(#FFE21F));
   background-image: -webkit-linear-gradient(90deg, #2185D0, #FFE21F);
@@ -18,8 +22,7 @@
   background-image: -o-linear-gradient(90deg, #2185D0, #FFE21F);
   background-image: linear-gradient(90deg, #2185D0, #FFE21F);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#2185D0', EndColorStr='#FFE21F');
-  opacity: 0.6;
-  padding: 12px; }
+  opacity: 0.6; }
 
 .titulo-home {
   font-size: 4.0em; }

@@ -25,6 +25,7 @@
     <title>Leonardo Alves - Desenvolvedor Web</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/components/bars.css">
 
@@ -35,16 +36,16 @@
         <div class="content-banner">
             <div class="d-flex flex-column align-items-center pt-5">
                 <div class="pt-3">
-                    <img class="img-perfil" src="assets/images/foto-perfil.jpeg" alt="Foto de Perfil DevLeo">
+                    <img class="img-perfil animated slideInDown" src="assets/images/foto-perfil.jpeg" alt="Foto de Perfil DevLeo">
                 </div>
-                <div class="pt-3">
+                <div class="pt-3 animated slideInLeft">
                     <p class="titulo-home"><code>< DevLeo /></code></Hello></p>
                 </div>
-                <div class="btn-home">
+                <div class="btn-home animated slideInLeft">
                     <button class="ui inverted button yellow" onclick="$('#habilidades').animatescroll()">Sobre mim</button>
                     <a class="ui inverted blue button" href="#contato">Portfólio</a>
                 </div>
-                <div class="icones-contato">
+                <div class="icones-contato animated slideInUp">
                     <a href="https://github.com/leo-pro" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
@@ -66,11 +67,9 @@
     <main id="habilidades">
         <h1></h1>
         <section class="container my-5" id="content-habilidades">
-            <div class="container">
-            </div>
             <h3><i class="fab fa-html5"></i> HTML - 100%</h3>
             <div class="barra">
-                <div class="conteudo"></div>
+                <div class="conteudo wd-100"></div>
             </div>
 
             <h3><i class="fab fa-css3-alt"></i> <i class="fab fa-sass "></i> CSS/SASS - 80%</h3>
@@ -118,7 +117,6 @@
 
     <script src="assets/js/lib.js"></script>
     <script src="assets/js/animatescroll.min.js"></script>
-    <script>
-    </script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
