@@ -72,6 +72,48 @@ html,body
             color: $yellow
     
 
+// CSS Fixed Menu
+.fixed-menu
+    width: 100vw
+    height: 50px
+    position: fixed
+    z-index: 4
+    background-color: #000
+    display: flex
+    justify-content: space-around
+    align-items: center
+    opacity: 0
+    // .menu-responsive
+    //     display: none
+    //     font-size: 2.0em
+    //     color: #ffffff
+    //     &:hover
+    //         color: $yellow
+    //     +breakpoint($mobile)
+    //         display: flex
+    .title-logo
+        font-family: monospace
+        font-size: 2.4em
+        font-weight: 500
+        +breakpoint($mobile)
+            font-size: 1.4em
+
+    .fixed-nav
+        +breakpoint($mobile)
+            display: none
+    .fixed-nav li
+        display: inline
+        padding: 0px 20px
+        a
+            text-decoration: none
+            color: #ffffff
+            font-size: 1.4em
+            &:hover
+                border-bottom: 2px solid #ffffff
+                
+
+
+
 //  CSS HABILIDADES
 #content-habilidades
     background-color: rgba(255,255,255,0.1)
