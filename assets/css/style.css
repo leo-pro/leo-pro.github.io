@@ -82,35 +82,63 @@ html, body {
     .icones-contato a .fa-envelope:hover {
       color: #FFE21F; }
 
-.fixed-menu {
-  width: 100vw;
-  height: 50px;
-  position: fixed;
-  z-index: 4;
-  background-color: #000;
+.menu-responsive {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
   opacity: 0; }
-  .fixed-menu .title-logo {
-    font-family: monospace;
-    font-size: 2.4em;
-    font-weight: 500; }
+  .menu-responsive .fixed-menu {
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index: 4;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .menu-responsive .fixed-menu .title-logo {
+      font-family: monospace;
+      font-size: 2.4em;
+      font-weight: 500; }
+      @media (max-width: 599px) {
+        .menu-responsive .fixed-menu .title-logo {
+          font-size: 1.8em;
+          margin-top: 10px; } }
     @media (max-width: 599px) {
-      .fixed-menu .title-logo {
-        font-size: 1.4em; } }
-  @media (max-width: 599px) {
-    .fixed-menu .fixed-nav {
-      display: none; } }
-  .fixed-menu .fixed-nav li {
-    display: inline;
-    padding: 0px 20px; }
-    .fixed-menu .fixed-nav li a {
-      text-decoration: none;
-      color: #ffffff;
-      font-size: 1.4em; }
-      .fixed-menu .fixed-nav li a:hover {
-        border-bottom: 2px solid #ffffff; }
+      .menu-responsive .fixed-menu .fixed-nav {
+        display: none; } }
+    .menu-responsive .fixed-menu .fixed-nav li {
+      display: inline;
+      padding: 0px 20px; }
+      .menu-responsive .fixed-menu .fixed-nav li a {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 1.4em; }
+        .menu-responsive .fixed-menu .fixed-nav li a:hover {
+          border-bottom: 2px solid #FFF; }
+    .menu-responsive .fixed-menu .menu-droppable {
+      display: none;
+      font-size: 2.0em;
+      color: #FFF; }
+      .menu-responsive .fixed-menu .menu-droppable:hover {
+        color: #FFE21F; }
+      @media (max-width: 599px) {
+        .menu-responsive .fixed-menu .menu-droppable {
+          display: block; } }
+  .menu-responsive .fixed-nav-responsive {
+    display: none;
+    background: #000;
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 4;
+    margin-top: 40px; }
+    .menu-responsive .fixed-nav-responsive ul li {
+      list-style: none;
+      padding: 20px 0px;
+      font-size: 1.8em; }
+      .menu-responsive .fixed-nav-responsive ul li a {
+        color: #FFF; }
 
 #content-habilidades {
   background-color: rgba(255, 255, 255, 0.1);

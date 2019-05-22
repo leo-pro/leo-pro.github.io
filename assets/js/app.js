@@ -21,6 +21,11 @@
     });
 }());
 
+$('.menu-droppable').click(function(e){
+    e.preventDefault();
+
+    $('.fixed-nav-responsive').slideDown();
+})
 
 
 $(document).scroll(function(){
@@ -28,10 +33,10 @@ $(document).scroll(function(){
     offset = $(window).height();
     
     if(documentTop >= (offset * 0.60)){
-        $('.fixed-menu').css("opacity","1.0");
+        $('.menu-responsive').css("opacity","1.0");
     }
     else{
-        $('.fixed-menu').css("opacity","0.0");
+        $('.menu-responsive').css("opacity","0.0");
     }
 })
 
