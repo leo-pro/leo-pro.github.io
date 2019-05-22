@@ -25,8 +25,17 @@ $('.menu-droppable').click(function(e){
     e.preventDefault();
 
     $('.fixed-nav-responsive').slideDown();
+    $('.menu-droppable .fa').removeClass('fa-bars');
+    $('.menu-droppable .fa').addClass('fa-times');
 })
 
+$('.menu-droppable .fa .fa-times').click(function(e){
+    e.preventDefault();
+
+    $('.fixed-nav-responsive').slideUp();
+    $('.menu-droppable .fa').removeClass('fa-times');
+    $('.menu-droppable .fa').addClass('fa-bars');
+})
 
 $(document).scroll(function(){
     var documentTop = $(document).scrollTop(),
