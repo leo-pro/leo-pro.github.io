@@ -17,7 +17,7 @@
 
 
     $(document).scroll(function(){
-        animateScroll('.conteudo');
+        //animateScroll('.conteudo');
     });
 }());
 
