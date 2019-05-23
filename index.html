@@ -38,9 +38,9 @@
         <div class="fixed-menu animated slideInDown">
             <h4 class="title-logo">{DevLeo}</h4>
             <ul class="fixed-nav">
-                <li><a href="#habilidades">Sobre mim</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a onclick="$('#habilidades').animatescroll()">Sobre mim</a></li>
+                <li><a onclick="$('#portfolio').animatescroll()">Portfólio</a></li>
+                <li><a onclick="$('#contato').animatescroll()">Contato</a></li>
             </ul>
             <button class="menu-droppable"><i class="fa fa-bars" aria-hidden="true"></i></button>
         </div>
@@ -63,8 +63,9 @@
                     <p class="titulo-home">{DevLeo}</p>
                 </div>
                 <div class="btn-home animated slideInLeft">
-                    <button class="ui inverted button yellow mr-3" onclick="$('#habilidades').animatescroll()">Sobre mim</button>
-                    <a class="ui inverted blue button" href="#contato">Portfólio</a>
+                    <button class="ui inverted button yellow" onclick="$('#habilidades').animatescroll()">Sobre mim</button>
+                    <button class="ui inverted blue button" onclick="$('#portfolio').animatescroll()">Portfólio</button>
+                    <button class="ui inverted red button" onclick="$('#contato').animatescroll()">Contato</button>
                 </div>
                 <div class="icones-contato animated slideInUp">
                     <a href="https://github.com/leo-pro" target="_blank" class="mr-2">
@@ -85,7 +86,7 @@
         <div class="opacity-banner"></div>
     </header>
 
-    <main>
+    <main id="habilidades">
         <h1></h1>
         <section class="container my-5" id="content-habilidades">
             <center><h1 class="titulo-skills">{ Habilidades } </h1></center>
