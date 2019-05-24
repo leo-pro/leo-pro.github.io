@@ -234,7 +234,7 @@ html, body {
     font-family: monospace;
     font-size: 3.0em;
     text-align: center;
-    padding: 10px 0px; }
+    padding-bottom: 30px; }
   #portfolio .projetos {
     padding: 10px 80px;
     display: flex;
@@ -242,12 +242,17 @@ html, body {
     align-items: center; }
     @media (max-width: 991px) {
       #portfolio .projetos {
+        padding: 10px 30px;
         flex-direction: column;
         justify-content: center;
         align-items: center; } }
     #portfolio .projetos img {
       width: 500px;
       height: 300px; }
+      @media (max-width: 599px) {
+        #portfolio .projetos img {
+          width: 400px;
+          height: 200px; } }
     #portfolio .projetos .painel {
       height: 100%;
       display: flex;
@@ -256,6 +261,9 @@ html, body {
       align-items: center;
       align-content: center;
       text-align: center; }
+      @media (max-width: 599px) {
+        #portfolio .projetos .painel {
+          margin: 30px 0px; } }
       #portfolio .projetos .painel .body-painel .zoom {
         overflow: hidden; }
         #portfolio .projetos .painel .body-painel .zoom img {

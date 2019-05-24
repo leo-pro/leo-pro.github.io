@@ -206,19 +206,23 @@ html,body
         font-family: monospace
         font-size: 3.0em
         text-align: center
-        padding: 10px 0px
+        padding-bottom: 30px
     .projetos
         padding: 10px 80px
         display: flex
         justify-content: space-around
         align-items: center
         +breakpoint($tablet)
+            padding: 10px 30px
             flex-direction: column
             justify-content: center
             align-items: center
         img
             width: 500px
             height: 300px
+            +breakpoint($mobile)
+                width: 400px
+                height: 200px
         .painel
             height: 100%
             display: flex
@@ -227,6 +231,8 @@ html,body
             align-items: center
             align-content: center
             text-align: center
+            +breakpoint($mobile)
+                margin: 30px 0px
             .body-painel 
                 .zoom
                     overflow: hidden
