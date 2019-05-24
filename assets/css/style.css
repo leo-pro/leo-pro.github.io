@@ -225,6 +225,39 @@ html, body {
     .fas {
       font-size: 2.0em; } }
 
+#portfolio {
+  width: 100%;
+  height: 100%;
+  padding: 60px 0px;
+  background-color: rgba(255, 255, 255, 0.1); }
+  #portfolio h1 {
+    font-family: monospace;
+    font-size: 3.0em;
+    text-align: center;
+    padding: 10px 0px; }
+  #portfolio .projetos {
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    @media (max-width: 991px) {
+      #portfolio .projetos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
+    #portfolio .projetos img {
+      width: 500px;
+      height: 300px; }
+    #portfolio .projetos .painel {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      overflow: hidden; }
+
 #contato {
   width: 100vw;
   height: 100%;
