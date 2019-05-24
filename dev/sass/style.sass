@@ -227,7 +227,26 @@ html,body
             align-items: center
             align-content: center
             text-align: center
-            overflow: hidden
+            .body-painel 
+                .zoom
+                    overflow: hidden
+                    img
+                        max-width: 100%
+                        -moz-transition: all 0.3s
+                        -webkit-transition: all 0.3s
+                        transition: all 0.3s
+                        border-radius: 10px
+                        opacity: 0.9
+                &:hover img
+                    -moz-transform: scale(1.1)
+                    -webkit-transform: scale(1.1)
+                    transform: scale(1.1)
+                    opacity: 0.7
+            .footer-painel
+                font-size: 1.2em
+                padding-top: 10px
+                p
+                    font-size: 1.3em
 
 // CSS Contato
 #contato
