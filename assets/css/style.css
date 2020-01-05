@@ -79,6 +79,8 @@ html, body {
   .icones-contato a {
     text-decoration: none;
     color: #FFF; }
+    .icones-contato a .fa-whatsapp:hover {
+      color: #01e675; }
     .icones-contato a .fa-linkedin:hover {
       color: #2185D0; }
     .icones-contato a .fa-instagram:hover {
