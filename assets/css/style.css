@@ -102,6 +102,9 @@ html, body {
     display: flex;
     justify-content: space-around;
     align-items: center; }
+    .menu-responsive .fixed-menu #logo-menu-responsive {
+      width: 150px;
+      height: 38px; }
     .menu-responsive .fixed-menu .title-logo {
       font-family: monospace;
       font-size: 2.4em;
@@ -123,7 +126,8 @@ html, body {
         color: #FFF;
         font-size: 1.4em; }
         .menu-responsive .fixed-menu .fixed-nav li a:hover {
-          border-bottom: 2px solid #FFF; }
+          border-bottom: 2px solid #61dafb;
+          color: #61dafb; }
     .menu-responsive .fixed-menu .menu-droppable {
       background: transparent;
       border: none;
