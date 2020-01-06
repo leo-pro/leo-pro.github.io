@@ -277,10 +277,20 @@ html,body
     button
         padding: 15px 35px
         font-size: 1.2em 
-.form-group label
-    font-size: 1.5em
+
+.form-group 
+    label
+        font-size: 1.5em
+    input
+        height: 45px
 .form-group input, .form-group textarea
+    background: transparent !important
+    color: $white !important
+    border: 2px solid $white !important
     font-size: 1.3em
+    &:hover
+        background: transparent
+        color: $white
     +breakpoint($mobile)
         font-size: 1.1em
 

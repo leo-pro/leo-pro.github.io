@@ -312,8 +312,17 @@ html, body {
 .form-group label {
   font-size: 1.5em; }
 
+.form-group input {
+  height: 45px; }
+
 .form-group input, .form-group textarea {
+  background: transparent !important;
+  color: #FFF !important;
+  border: 2px solid #FFF !important;
   font-size: 1.3em; }
+  .form-group input:hover, .form-group textarea:hover {
+    background: transparent;
+    color: #FFF; }
   @media (max-width: 599px) {
     .form-group input, .form-group textarea {
       font-size: 1.1em; } }
