@@ -1,8 +1,6 @@
 // Scroll Animation
 
 (function(){
-    
-
     function animateScroll(element){
         var documentTop = $(document).scrollTop(),
             offset = $(window).height();
@@ -33,8 +31,6 @@ $('.menu-droppable').click(function(e){
     $('.fixed-nav-responsive').slideToggle();
 })
 
-
-
 $(document).scroll(function(){
     var documentTop = $(document).scrollTop(),
     offset = $(window).height();
@@ -49,10 +45,7 @@ $(document).scroll(function(){
     }
 })
 
-
-
-
-
+//Button Back to Top
 $(document).ready(function(){
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {

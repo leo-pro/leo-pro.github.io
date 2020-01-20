@@ -9,3 +9,17 @@
 #btn-back-top i{
     font-size: 2.0em;
 }
+
+@media(max-width: 760px){
+    #btn-back-top{
+        position: fixed;
+        z-index: 200;
+        top: 90%;
+        right: 40px;
+        opacity: 0.0;
+    }
+    
+    #btn-back-top i{
+        font-size: 1.2em;
+    }
+}
