@@ -40,10 +40,12 @@ $(document).scroll(function(){
     offset = $(window).height();
     
     if(documentTop >= (offset * 0.60)){
-        $('.menu-responsive').css("opacity","1.0");
+        $('.menu-responsive').css("opacity","1.0").css("transition","opacity 0.2s");
+        $('#btn-back-top').css("opacity","1.0").css("transition","opacity 0.2s");;
     }
     else{
-        $('.menu-responsive').css("opacity","0.0");
+        $('.menu-responsive').css("opacity","0.0").css("transition","opacity 0.2s");;
+        $('#btn-back-top').css("opacity","0.0").css("transition","opacity 0.2s");;
     }
 })
 
@@ -51,5 +53,18 @@ $(document).scroll(function(){
 
 
 
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('a[href="#top"]').fadeIn();
+        } else {
+            $('a[href="#top"]').fadeOut();
+        }
+    });
 
+    $('a[href="#top"]').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
+});
 

@@ -1,0 +1,47 @@
+[33m44b2595[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #2 from leo-pro/dependabot/npm_and_yarn/tar-2.2.2
+[33m40eae46[m Merge pull request #3 from leo-pro/dependabot/npm_and_yarn/mixin-deep-1.3.2
+[33mac953e3[m Bump tar from 2.2.1 to 2.2.2
+[33m107b48f[m Merge pull request #4 from leo-pro/dependabot/npm_and_yarn/fstream-1.0.12
+[33m575e497[m Merge pull request #5 from leo-pro/dependabot/npm_and_yarn/js-yaml-3.13.1
+[33mefc9dc3[m Merge pull request #6 from leo-pro/dependabot/npm_and_yarn/lodash-4.17.15
+[33me522620[m Add new Form with Mailchimp
+[33m16b2f61[m Merge branch 'master' of https://github.com/leo-pro/leo-pro.github.io
+[33m77b1d32[m Change color of links, add logo in menu-responsive and add file CNAME with a custom domain
+[33m16d7709[m Delete CNAME
+[33m0f0f0fd[m Create CNAME
+[33m52fcc03[m Add Whatsapp icon + link. Change instagram link
+[33m4c77978[m[33m ([m[1;31morigin/dependabot/npm_and_yarn/js-yaml-3.13.1[m[33m)[m Bump js-yaml from 3.12.1 to 3.13.1
+[33m10e0f83[m[33m ([m[1;31morigin/dependabot/npm_and_yarn/lodash-4.17.15[m[33m)[m Bump lodash from 4.17.11 to 4.17.15
+[33mba0e4eb[m[33m ([m[1;31morigin/dependabot/npm_and_yarn/fstream-1.0.12[m[33m)[m Bump fstream from 1.0.11 to 1.0.12
+[33m3931bdc[m[33m ([m[1;31morigin/dependabot/npm_and_yarn/mixin-deep-1.3.2[m[33m)[m Bump mixin-deep from 1.3.1 to 1.3.2
+[33maf612d4[m Add new logo
+[33m686fa8b[m Add alterações no titulo do contato
+[33m166ebbf[m Add google analytics
+[33md969922[m Ajustes na responsividade da section portfolio
+[33m1d0bca9[m Add zoom na imagem do Portfolio
+[33m092d5c0[m Add section Portfolio
+[33mb3f80cf[m Add Icones dotNet na section habilidades
+[33m090273c[m Add botão enviar
+[33m1657307[m Ajustes nos links internos da página
+[33m6a0d9bd[m Add section contato
+[33m4d8f09e[m Correção na cor do icone do linkedin
+[33m504f623[m Ajustes nos links, add linkedin. Ajustes nas barras de habilidades
+[33m6e7792e[m Add funcionalidade do botão toggle
+[33ma54348f[m Add botão toggle no menu-responsive
+[33mb74d5c5[m Add menu responsivo
+[33mdf34771[m Add fixed menu
+[33me25b74b[m Add devicons
+[33md8d2fd4[m Alter CSS Backgrounds
+[33ma0c7b78[m Add breakpoints to icons
+[33md4e1488[m Complete footer \o/
+[33me8d2374[m Add animation in the header
+[33mb1c48cf[m Add contacts on the header
+[33mfcfa70b[m Finish Header of page
+[33m492617c[m Finish Hability section and add files
+[33mad5d96d[m Include section hability and test barrras.css
+[33m75657bb[m Add Background images and Bootstrap Grids
+[33mb4a1fe5[m Add folders and files CSS e JS from project
+[33m4d833e6[m Add lists into Readme.md
+[33m74560dd[m Start Project and refresh Readme.md
+[33m74e520c[m Add Readme.md
+[33m3b62840[m Intial commit with the folders
