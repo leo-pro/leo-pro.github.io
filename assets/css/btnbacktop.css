@@ -1,9 +1,9 @@
 #btn-back-top{
     position: fixed;
     z-index: 200;
-    top: 90%;
-    right: 40px;
     opacity: 0.0;
+    margin-left: 92vw;
+    margin-top: 80vh;
 }
 
 #btn-back-top i{
