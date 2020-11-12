@@ -47,11 +47,10 @@ html, body {
 .img-perfil {
   width: 250px;
   height: 250px;
-  border: 2px solid #FFF;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
-  border-radius: 15px; }
+  border-radius: 50%; }
   @media (max-width: 599px) {
     .img-perfil {
       width: 200px;
@@ -322,7 +321,7 @@ html, body {
   font-size: 1.3em; }
   .form-group input:hover, .form-group textarea:hover {
     background: transparent;
-    color: #FFF; }
+    color: #FFF !important; }
   @media (max-width: 599px) {
     .form-group input, .form-group textarea {
       font-size: 1.1em; } }

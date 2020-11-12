@@ -23,7 +23,7 @@
     <meta name="msapplication-TileColor" content="#000">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#000">
-    <title>Leonardo Alves - Desenvolvedor Web</title>
+    <title>Leonardo Alves - Desenvolvedor Full Stack</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- in your header -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -52,7 +52,7 @@
             <img src="assets/images/logo.png" id="logo-menu-responsive" alt="Logo Desenvolvedor Leonardo Alves" title="logo devleo">
             <ul class="fixed-nav">
                 <li><a onclick="$('#habilidades').animatescroll()">Sobre mim</a></li>
-                <li><a onclick="$('#portfolio').animatescroll()">Portfólio</a></li>
+                <!-- <li><a onclick="$('#portfolio').animatescroll()">Portfólio</a></li> -->
                 <li><a onclick="$('#contato').animatescroll()">Contato</a></li>
             </ul>
             <button class="menu-droppable"><i class="fa fa-bars" aria-hidden="true"></i></button>
@@ -60,7 +60,7 @@
         <div class="fixed-nav-responsive">
             <ul>
                 <li><a href="#habilidades">Sobre mim</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
+                <!-- <li><a href="#portfolio">Portfólio</a></li> -->
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="btn-home animated slideInLeft">
                     <button class="ui inverted button yellow" onclick="$('#habilidades').animatescroll()">Sobre mim</button>
-                    <button class="ui inverted blue button" onclick="$('#portfolio').animatescroll()">Portfólio</button>
+                    <a href="https://devleo.com.br/assets/docs/curriculo-Leonardo-Alves.pdf" class="ui inverted blue button">Baixar meu currículo</a>
                     <button class="ui inverted red button" onclick="$('#contato').animatescroll()">Contato</button>
                 </div>
                 <div class="icones-contato animated slideInUp">
@@ -122,24 +122,14 @@
                 <div class="conteudo animate wd-80"></div>
             </div>
 
-            <h3><i class="fab devicon-react-original-wordmark colored"></i> <i class="fab devicon-nodejs-plain colored"></i> React, NodeJS - 40%</h3>
+            <h3><i class="fab fa-github"></i> Github - 80%</h3>
             <div class="barra">
-                <div class="conteudo animate wd-40"></div>
+                <div class="conteudo animate wd-80"></div>
             </div>
 
-            <h3><i class="fab devicon-php-plain colored"></i> PHP - 90%</h3>
+            <h3><i class="fab devicon-react-original-wordmark colored"></i> <i class="fab devicon-nodejs-plain colored"></i> React, NodeJS - 50%</h3>
             <div class="barra">
-                <div class="conteudo animate wd-90"></div>
-            </div>
-
-            <h3><i class="fab devicon-codeigniter-plain-wordmark colored"></i> CodeIgniter - 90%</h3>
-            <div class="barra">
-                <div class="conteudo animate wd-90"></div>
-            </div>
-
-            <h3><i class="fab fa-wordpress"></i> WordPress - 40%</h3>
-            <div class="barra">
-                <div class="conteudo animate wd-40"></div>
+                <div class="conteudo animate wd-50"></div>
             </div>
 
             <h3><i class="fas devicon-postgresql-plain-wordmark colored"></i><i class="fab devicon-mysql-plain-wordmark colored"></i> MySQL, PostgreSQL - 70%</h3>
@@ -147,10 +137,21 @@
                 <div class="conteudo animate wd-70"></div>
             </div>
 
-            <h3><i class="fab fa-github"></i> Github - 60%</h3>
+            <h3><i class="fab devicon-php-plain colored"></i> PHP - 40%</h3>
             <div class="barra">
-                <div class="conteudo animate wd-60"></div>
+                <div class="conteudo animate wd-40"></div>
             </div>
+
+            <!-- <h3><i class="fab devicon-codeigniter-plain-wordmark colored"></i> CodeIgniter - 90%</h3>
+            <div class="barra">
+                <div class="conteudo animate wd-90"></div>
+            </div> -->
+
+            <!-- <h3><i class="fab fa-wordpress"></i> WordPress - 40%</h3>
+            <div class="barra">
+                <div class="conteudo animate wd-40"></div>
+            </div> -->
+
 
             <h3><i class="fab devicon-csharp-plain colored"></i> <i class=" fab devicon-dot-net-plain-wordmark colored"></i> (C#)Csharp, DOT.NET- 40%</h3>
             <div class="barra">
@@ -158,7 +159,7 @@
             </div>
         </section>
 
-        <section id="portfolio">
+        <!-- <section id="portfolio">
             <div class="container">
                 <h1>{ Portfólio }</h1>
             </div>
@@ -201,7 +202,7 @@
                         </div>
                     </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="contato">
             <div class="container">
@@ -226,22 +227,18 @@
                 <div id="mc_embed_signup">
                     <form action="https://devleo.us4.list-manage.com/subscribe/post?u=df1c6912e64e37cb8dfd195ca&amp;id=a6509d54a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
-                            <div class="mc-field-group form-group form-inline col-12 pl-0 pr-0">
+                            <div class="mc-field-group form-group">
                                 <div class="input-group col ml-0 pl-0 pr-0">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"><span class="fa fa-user"></span></div>
-                                    </div>
-                                    <input type="text" value="" placeholder="Nome" name="FNAME" class="required form-control col-10" id="mce-FNAME">
-                                </div>
-                                <div class="input-group col ml-0 pl-0 pr-0">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"><span class="fa fa-envelope"></span></div>
-                                    </div>
-                                    <input type="email" value="" placeholder="Email" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                                    <input type="text" value="" placeholder="Como gostaria que eu te chamasse?" name="FNAME" class="required form-control" id="mce-FNAME">
                                 </div>
                             </div>
                             <div class="mc-field-group form-group">
-                                <textarea type="text" value="" cols="30" rows="4" placeholder="Deixe sua mensagem aqui..." name="MMERGE2" class="required form-control col-12" id="mce-MMERGE2"></textarea>
+                                <div class="input-group col ml-0 pl-0 pr-0">
+                                <input type="email" value="" placeholder="Qual seu melhor e-mail?" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                                </div>
+                            </div>
+                            <div class="mc-field-group form-group">
+                                <textarea type="text" value="" cols="30" rows="4" placeholder="Deixe aqui sua mensagem..." name="MMERGE2" class="required form-control col-12" id="mce-MMERGE2"></textarea>
                             </div>
                             <div id="mce-responses" class="clear">
                                 <div class="response" id="mce-error-response" style="display:none"></div>
@@ -250,7 +247,7 @@
                             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_df1c6912e64e37cb8dfd195ca_a6509d54a4" tabindex="-1" value=""></div>
                             <div class="clear">
                                 <center>
-                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="ui inverted button yellow">ENVIAR MENSAGEM</button>
+                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="ui inverted button yellow">ENVIAR MENSAGEM ✔️</button>
                                 </center>
                             </div>
                         </div>
