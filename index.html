@@ -55,7 +55,7 @@
 </head>
 <body>
 
-    <a href="#top" class="ui inverted button yellow" id="btn-back-top"><i class="fa fa-angle-up"></i></a>
+    <a href="#top" class="ui button" id="btn-back-top"><i class="fa fa-angle-up"></i></a>
     <nav class="menu-responsive">
         <div class="fixed-menu animated slideInDown">
             <img src="assets/images/logo.png" id="logo-menu-responsive" alt="Logo Desenvolvedor Leonardo Alves" title="logo devleo">
@@ -85,9 +85,9 @@
                     <img src="assets/images/logo.png" id="logo" alt="Logo Desenvolvedor Leonardo Alves" title="logo devleo">
                 </div>
                 <div class="btn-home animated slideInLeft">
-                    <button class="ui inverted button yellow" onclick="$('#habilidades').animatescroll()">Sobre mim</button>
-                    <a href="https://devleo.com.br/assets/docs/curriculo-Leonardo-Alves.pdf" class="ui inverted blue button">Baixar meu currículo</a>
-                    <button class="ui inverted red button" onclick="$('#contato').animatescroll()">Contato</button>
+                    <button class="ui button" onclick="$('#habilidades').animatescroll()">Sobre mim</button>
+                    <a href="https://devleo.com.br/assets/docs/curriculo-Leonardo-Alves.pdf" class="ui button">Baixar meu currículo</a>
+                    <button class="ui button" onclick="$('#contato').animatescroll()">Contato</button>
                 </div>
                 <div class="icones-contato animated slideInUp">
                     <a href="https://api.whatsapp.com/send?phone=5515997820174&text=Ola%20Leonardo%20Alves,%20como%20vai?" target="_blank" class="mr-2">
@@ -126,7 +126,7 @@
                 <div class="conteudo animate wd-80"></div>
             </div>
 
-            <h3><i class="fab fa-js-square"></i> JavaScript - 80%</h3>
+            <h3><i class="fab fa-js-square"></i> JavaScript - 90%</h3>
             <div class="barra">
                 <div class="conteudo animate wd-80"></div>
             </div>
@@ -136,9 +136,9 @@
                 <div class="conteudo animate wd-80"></div>
             </div>
 
-            <h3><i class="fab devicon-react-original-wordmark colored"></i> <i class="fab devicon-nodejs-plain colored"></i> React, NodeJS - 50%</h3>
+            <h3><i class="fab devicon-react-original-wordmark colored"></i> <i class="fab devicon-nodejs-plain colored"></i> React, NodeJS - 70%</h3>
             <div class="barra">
-                <div class="conteudo animate wd-50"></div>
+                <div class="conteudo animate wd-70"></div>
             </div>
 
             <h3><i class="fas devicon-postgresql-plain-wordmark colored"></i><i class="fab devicon-mysql-plain-wordmark colored"></i> MySQL, PostgreSQL - 70%</h3>
@@ -168,7 +168,7 @@
             </div>
         </section>
 
-        <!-- <section id="portfolio">
+        <section id="portfolio">
             <div class="container">
                 <h1>{ Portfólio }</h1>
             </div>
@@ -177,41 +177,58 @@
                     <div class="titulo-painel"></div>
                     <div class="body-painel">
                         <div class="zoom">
-                            <a href=""><img src="assets/images/portfolio/igx.PNG" alt=""></a>
+                            <a href="https://searchrepos.herokuapp.com/" target="_blank"><img src="assets/images/mockups/mockup-web-searchrepo.png" alt="" style="height: 60%"></a>
                         </div>
                     </div>
                     <div class="footer-painel">
                         <div class="icones-footer pt-lg-0 pt-3">
-                            <p>Desenvolvido com:</p>
-                            <i class="fab devicon-codeigniter-plain-wordmark colored"></i>
-                            <i class="fab fa-html5"></i>
-                            <i class="fab fa-css3-alt"></i>
-                            <i class="fab fa-sass"></i>
-                            <i class="fab fa-js-square"></i>
+                            <p>Search Github Repositories</p>
                         </div>
                     </div>
                 </div>
                 <div class="painel">
-                        <div class="titulo-painel"></div>
-                        <div class="body-painel">
-                            <div class="zoom">
-                                <a href="https://oreidoscabritos.com.br" target="_blank"><img src="assets/images/portfolio/orei.PNG" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="footer-painel">
-                            <div class="icones-footer pt-lg-0 pt-3">
-                                <p>Desenvolvido com:</p>
-                                <i class="fab devicon-php-plain colored"></i>
-
-                                <i class="fab fa-html5"></i>
-                                <i class="fab fa-css3-alt"></i>
-                                <i class="fab fa-sass"></i>
-                                <i class="fab fa-js-square"></i>
-                            </div>
+                    <div class="titulo-painel"></div>
+                    <div class="body-painel">
+                        <div class="zoom">
+                            <a href="educadin.herokuapp.com/" target="_blank"><img src="assets/images/background_educadin.png" alt="" style="max-width: 90%; height: 60%"></a>
                         </div>
                     </div>
+                    <div class="footer-painel">
+                        <div class="icones-footer pt-lg-0 pt-3">
+                            <p>Plataforma de Educação financeira</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section> -->
+            <div class="projetos">
+                <div class="painel">
+                    <div class="titulo-painel"></div>
+                    <div class="body-painel">
+                        <div class="zoom">
+                            <a href="https://ebook.buildlab.com.br/criatividade-para-devs/" target="_blank"><img src="https://ebook.buildlab.com.br/criatividade-para-devs/images/cover-criatividade-para-devs.png" alt="" style="max-width: 90%; height: 60%"></a>
+                        </div>
+                    </div>
+                    <div class="footer-painel">
+                        <div class="icones-footer pt-lg-0 pt-3">
+                            <p>Landing Page - E-book</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="painel">
+                    <div class="titulo-painel"></div>
+                    <div class="body-painel">
+                        <div class="zoom">
+                            <a href="academy.buildlab.com.br" target="_blank"><img src="assets/images/academy.PNG" alt="" style="max-width: 90%; height: auto"></a>
+                        </div>
+                    </div>
+                    <div class="footer-painel">
+                        <div class="icones-footer pt-lg-0 pt-3">
+                            <p>BuildLab Academy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section id="contato">
             <div class="container">
@@ -256,7 +273,7 @@
                             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_df1c6912e64e37cb8dfd195ca_a6509d54a4" tabindex="-1" value=""></div>
                             <div class="clear">
                                 <center>
-                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="ui inverted button yellow">ENVIAR MENSAGEM ✔️</button>
+                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="ui button">ENVIAR MENSAGEM ✔️</button>
                                 </center>
                             </div>
                         </div>

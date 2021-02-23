@@ -1,7 +1,7 @@
 .barra {
-  border: 2px solid #696969;
+  border: 2px solid #262626;
   border-radius: 15px;
-  background: #696969;
+  background: #262626;
   width: 100%; }
 
 .conteudo {
@@ -14,14 +14,14 @@
   padding: 12px; }
 
 .animate {
-  background-color: #FFE21F;
-  background-image: -webkit-gradient(linear, 90deg, from(#2185D0), to(#FFE21F));
-  background-image: -webkit-linear-gradient(90deg, #2185D0, #FFE21F);
-  background-image: -moz-linear-gradient(90deg, #2185D0, #FFE21F);
-  background-image: -ms-linear-gradient(90deg, #2185D0, #FFE21F);
-  background-image: -o-linear-gradient(90deg, #2185D0, #FFE21F);
-  background-image: linear-gradient(90deg, #2185D0, #FFE21F);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#2185D0', EndColorStr='#FFE21F');
+  background-color: #0554f2;
+  background-image: -webkit-gradient(linear, 90deg, from(#0554F2), to(#0554F2));
+  background-image: -webkit-linear-gradient(90deg, #0554F2, #0554F2);
+  background-image: -moz-linear-gradient(90deg, #0554F2, #0554F2);
+  background-image: -ms-linear-gradient(90deg, #0554F2, #0554F2);
+  background-image: -o-linear-gradient(90deg, #0554F2, #0554F2);
+  background-image: linear-gradient(90deg, #0554F2, #0554F2);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#0554F2', EndColorStr='#0554F2');
   opacity: 0.6; }
 
 .titulo-home {
